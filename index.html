@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Jay Saluta - Growth Strategist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: url('uploaded:Untitled design (1).jpg-d5cc6c1a-525a-4a66-88ae-aa08249cd5ae'); /* DIRECTLY SET AS BODY BACKGROUND */
+            background-size: cover; /* Cover the entire background */
+            background-position: center center; /* Center the image */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keep background fixed when scrolling */
+            background-color: #1a1a1a; /* Fallback color, but image should dominate */
+            color: #e2e8f0; /* Light text */
+            position: relative;
+            z-index: 0;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .section-heading {
+            color: #FFD700; /* Unified: Vibrant Gold accent color for headings */
+            border-bottom: 2px solid #FFD700; /* Unified: Gold border */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .card {
+            background-color: rgba(26, 26, 26, 0.7); /* Adjusted: Dark gray with more transparency for readability */
+            border-radius: 0.75rem; /* Rounded corners */
+            padding: 1.5rem;
+            box-shadow: 0 12px 50px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+            backdrop-filter: blur(5px); /* Subtle blur for background behind card */
+            border: 1px solid rgba(255, 215, 0, 0.7); /* Visible yellow border for accent */
+        }
+        .icon-text {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .icon-text i {
+            color: #FFD700; /* Unified: Yellow/Gold Icon color */
+        }
+        .job-title {
+            color: #FFD700; /* Unified: Vibrant Gold color */
+            font-weight: bold; /* Make the text bold */
+            text-shadow: none; /* Glow removed */
+        }
+        .company-name {
+            color: #cbd5e0; /* Standard light gray for company names */
+        }
+        ul {
+            list-style: none; /* Remove default bullet */
+            padding-left: 0;
+        }
+        ul li:before {
+            content: '⚡'; /* Custom lightning bolt bullet for power */
+            color: #FFD700; /* Unified: Yellow/Gold Bullet color */
+            display: inline-block;
+            width: 1.2em; /* Adjust width for emoji */
+            margin-left: -1.2em; /* Adjust margin for emoji */
+        }
+        ul li {
+            color: #e2e8f0; /* Revert to light text for bullet points */
+            font-weight: normal; /* Revert to normal weight for bullet points */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Standard text shadow for bullet points */
+        }
+
+        .profile-pic-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #FFD700; /* Yellow/Gold accent border around pic */
+            box-shadow: 0 0 40px rgba(255, 215, 0, 1); /* Stronger glowing effect (Yellow Aura) */
+            margin: -75px auto 2rem auto; /* Pulls it up slightly, centers, adds space below */
+            background-color: #333; /* Placeholder background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+            text-align: center;
+            color: #e2e8f0;
+        }
+        .profile-pic-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1, h2, h3, h4, p { /* Apply general text shadow to all relevant elements */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Responsive adjustments for background images */
+        @media (max-width: 1024px) {
+            body {
+                background-size: cover;
+            }
+        }
+        @media (max-width: 768px) {
+            body {
+                background-size: cover;
+            }
+            .profile-pic-container {
+                width: 120px;
+                height: 120px;
+                margin: -60px auto 1.5rem auto;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                background-image: none; /* Hide background image on very small screens for clarity */
+            }
+            .profile-pic-container {
+                width: 100px;
+                height: 100px;
+                margin: -50px auto 1rem auto;
+            }
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 lg:p-12">
+
+    <div class="max-w-6xl mx-auto card">
+        <!-- Header Section -->
+        <header class="text-center mb-8 pt-8">
+            <!-- Profile Picture -->
+            <div class="profile-pic-container">
+                <!-- Profile picture is now a clickable link to LinkedIn -->
+                <a href="https://www.linkedin.com/in/mico-jay-saluta-0a42032b9/" target="_blank">
+                    <img src="https://i.imgur.com/ALbvYYf.png" alt="Mico Jay Saluta Profile Picture">
+                </a>
+            </div>
+
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-2">MICO JAY SALUTA</h1>
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-400 mb-4">GROWTH STRATEGIST</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4 text-gray-300">
+                <div class="icon-text">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:Micojaysfernandez@gmail.com" class="hover:text-yellow-400">Micojaysfernandez@gmail.com</a>
+                </div>
+                <div class="icon-text">
+                    <i class="fas fa-phone"></i>
+                    <span>+639 456 807 963</span>
+                </div>
+                <div class="icon-text">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/mico-jay-saluta-0a42032b9/" target="_blank" class="hover:text-yellow-400">MicoySaluta</a>
+                </div>
+                <!-- New: Portfolio/Website Link -->
+                <div class="icon-text">
+                    <i class="fas fa-globe"></i> <!-- Website icon -->
+                    <a href="https://automation-growthspecialist.github.io/Portfolio-Website/" target="_blank" class="hover:text-yellow-400">Portfolio/Website</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content - Two Columns -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Left Column: Summary, Skills, Strategic Approach & Education -->
+            <aside class="md:col-span-1 space-y-8">
+                <section class="card">
+                    <h3 class="text-2xl font-bold section-heading">EXECUTIVE SUMMARY</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        I am a Growth Strategist who conquers B2B outreach and secures leads through automation. I forge powerful brand presence with social media and convert prospects into sales. My work optimizes operations and delivers top results for clients.
+                    </p>
+                </section>
+
+                <section class="card">
+                    <h3 class="text-2xl font-bold section-heading">SKILLS AND EXPERTISE</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Automation & Lead Generation: Drives new prospects through automated outreach, increasing lead volume by 15-25%.</li>
+                        <li>Email & LinkedIn Automation: Manages digital communication and networking efficiently, boosting engagement by 10-20%.</li>
+                        <li>Sales & Conversion: Boosts revenue by converting leads into sales, improving close rates by 5-15%.</li>
+                        <li>Social Media Management: Builds strong brand presence and engagement, growing followers by 15-30%.</li>
+                        <li>Research & Data Analysis: Finds key information for smart decisions, cutting research time by 20-30%.</li>
+                        <li>Campaign Optimization: Improves campaign performance for best results, increasing ROI by 10-20%.</li>
+                        <li>CRM & Google Suite: Uses key tools for smooth operations, streamlining workflows by 15-25%.</li>
+                        <li>Strategic Planning & Execution: Plans and achieves big goals, ensuring projects complete on average 10-15% faster.</li>
+                    </ul>
+                </section>
+
+                <!-- NEW SECTION: MY STRATEGIC APPROACH -->
+                <section class="card">
+                    <h3 class="text-2xl font-bold section-heading">MY STRATEGIC APPROACH</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Targeted Automation: Connects with high-value B2B leads using tools like Zapier and Make.com for rapid, high-converting outreach.</li>
+                        <li>Strong Social Presence: Builds brand authority and gets leads across all key platforms, driving consistent, measurable engagement.</li>
+                        <li>Integrated Automation: Makes operations smooth, boosts efficiency, and ensures clear growth by connecting systems like Go High Level for seamless workflow.</li>
+                        <li>Focus on Results: Turns potential into clear, strong outcomes by focusing on measurable impact and optimizing sales funnels for maximum conversion.</li>
+                    </ul>
+                </section>
+
+                <!-- UPDATED EDUCATION SECTION -->
+                <section class="card">
+                    <h3 class="2xl font-bold section-heading">EDUCATION</h3>
+
+                    <!-- University of Bohol -->
+                    <div class="mb-6 pb-4 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">Bachelor Degree, Business Administration (Business Management)</h4>
+                        <p class="company-name text-gray-400">UNIVERSITY OF BOHOL- PHILIPPINES | 2018 - 2022</p>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Right Column: Work Experience and Project Base Experience -->
+            <main class="md:col-span-2 space-y-8">
+                <section class="card">
+                    <h3 class="text-2xl font-bold section-heading">WORK EXPERIENCE</h3>
+
+                    <!-- Rebel Media Agency -->
+                    <div class="mb-6 pb-4 border-b border-gray-700 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">EMAIL AUTOMATION SPECIALIST | LEAD GENERATION | SALES REPRESENTATIVE | LINKEDIN AUTOMATION</h4>
+                        <p class="company-name text-gray-400">Rebel Media Agency | March 2022 - April 2025</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Email Automation Specialist: Drove email campaigns, boosting responses by 15-25% and securing 20-30 meetings monthly.</li>
+                            <li>Lead Generation: Captured 150-200 high-quality prospects monthly, expanding market reach and boosting sales pipeline by 15-20%.</li>
+                            <li>Sales Representative: Exceeded sales goals by 10-15%, gaining 5-10 new clients quarterly.</li>
+                            <li>LinkedIn Automation: Managed LinkedIn tools to acquire 30-50 new professional connections weekly, driving 15-20% more engagement.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Driven Insurance -->
+                    <div class="mb-6 pb-4 border-b border-gray-700 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">EMAIL AUTOMATION SPECIALIST | LEAD GENERATION | COLD CALLER</h4>
+                        <p class="company-name text-gray-400">Driven Insurance | October 2024 - March 2025</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Email Automation Specialist: Developed email systems that increased qualified leads by 10-20% and improved conversion rates.</li>
+                            <li>Lead Generation: Identified new customers, consistently securing 8-12 meetings each week.</li>
+                            <li>Cold Caller: Executed calls to new contacts, boosting sales close rates by 10-15% and generating 30-40 new opportunities monthly.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Allianz -->
+                    <div class="mb-6 pb-4 border-b border-gray-700 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">EMAIL AUTOMATION SPECIALIST | LEAD GENERATION | SOCIAL MEDIA MANAGER | SALES REPRESENTATIVE | LINKEDIN AUTOMATION</h4>
+                        <p class="company-name text-gray-400">Allianz | June 2022 - Dec 2023</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Email Automation Specialist: Managed email campaigns, improving response rates by 10-18% and nurturing 70-100 leads.</li>
+                            <li>Lead Generation: Secured 30-50 B2B leads monthly, expanding client base by 5-10%.</li>
+                            <li>Social Media Manager: Enhanced brand presence and online interaction, increasing engagement by 15-20%.</li>
+                            <li>Sales Representative: Achieved sales goals, exceeding targets by 5-10% and securing 3-5 new clients quarterly.</li>
+                            <li>LinkedIn Automation: Leveraged tools to grow professional networks by 20-30%, leading to more direct outreach opportunities.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Task us -->
+                    <div class="mb-6 pb-4 border-b border-gray-700 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">INBOUND AND OUTBOUND CUSTOMER SERVICE | QUALITY ANALYSIS</h4>
+                        <p class="company-name text-gray-400">Task us | November 2019 - October 2023</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Inbound and Outbound Customer Service: Assisted 40-50 customers daily, handling both incoming and outgoing inquiries, solving issues quickly and maintaining 85-90% satisfaction.</li>
+                            <li>Quality Analysis: Audited 80-100 customer talks weekly, improving service by 5-10% and reducing errors.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Prism -->
+                    <div class="mb-6 pb-4 border-b border-gray-700 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">EMAIL AUTOMATION & LEAD GENERATION SPECIALIST | LINKEDIN AUTOMATION</h4>
+                        <p class="company-name text-gray-400">Prism | January 2018 - June 2019</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Email Automation & Lead Generation Specialist: Led email automation to grow leads by 20-30% and boost conversion rates.</li>
+                            <li>LinkedIn Automation: Managed LinkedIn tools, generating 10-15 meetings each month and increasing network reach.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Executive Assistant -->
+                    <div class="mb-6 pb-4 border-b border-gray-700 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">EXECUTIVE ASSISTANT</h4>
+                        <p class="company-name text-gray-400">Department of Business Administration Philippines | June 2016 - January 2019</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Executive Assistant: Executed plans, making operations 15-20% more efficient and improving project delivery.</li>
+                            <li>Managed complex schedules and communications for senior leadership, ensuring smooth daily operations.</li>
+                            <li>Prepared key reports and presentations, supporting strategic decision-making and departmental goals.</li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <!-- MOVED: A Project Base Experience - Now in its own card in main -->
+                <section class="card">
+                    <h3 class="text-2xl font-bold section-heading">A PROJECT BASE EXPERIENCE</h3>
+                    <div class="mb-6 pb-4 last:border-b-0">
+                        <h4 class="text-xl font-semibold job-title">AUTOMATION SPECIALIST</h4>
+                        <p class="company-name text-gray-400">Various Projects | 2022 - Present</p>
+                        <ul class="mt-2 space-y-1 text-gray-300">
+                            <li>Go High Level: Integrated Go High Level for smooth work processes, reducing manual tasks by 20-25%.</li>
+                            <li>Sales Funnel: Built and optimized sales paths, increasing customer acquisition by 10-15%.</li>
+                            <li>Zapier: Deployed Zapier to link different apps and automate tasks, saving 8-12 hours weekly.</li>
+                            <li>Make.com: Utilized Make.com for complex connections between various systems, improving data flow by 20-30%.</li>
+                        </ul>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
